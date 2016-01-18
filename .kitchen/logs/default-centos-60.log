@@ -1,0 +1,36 @@
+I, [2016-01-18T09:47:42.401090 #5196]  INFO -- default-centos-60: -----> Converging <default-centos-60>...
+I, [2016-01-18T09:47:42.403090 #5196]  INFO -- default-centos-60: Preparing files for transfer
+I, [2016-01-18T09:47:42.403090 #5196]  INFO -- default-centos-60: Preparing dna.json
+I, [2016-01-18T09:47:42.404590 #5196]  INFO -- default-centos-60: Resolving cookbook dependencies with Berkshelf 4.0.1...
+I, [2016-01-18T09:47:43.278201 #5196]  INFO -- default-centos-60: Removing non-cookbook files before transfer
+I, [2016-01-18T09:47:43.328208 #5196]  INFO -- default-centos-60: Preparing solo.rb
+I, [2016-01-18T09:47:43.463225 #5196]  INFO -- default-centos-60: -----> Chef Omnibus installation detected (install only if missing)
+I, [2016-01-18T09:47:43.527233 #5196]  INFO -- default-centos-60: Transferring files to <default-centos-60>
+I, [2016-01-18T09:47:48.785401 #5196]  INFO -- default-centos-60: Starting Chef Client, version 12.2.1
+I, [2016-01-18T09:47:50.265589 #5196]  INFO -- default-centos-60: Compiling Cookbooks...
+I, [2016-01-18T09:47:50.326596 #5196]  INFO -- default-centos-60: Converging 7 resources
+I, [2016-01-18T09:47:50.327096 #5196]  INFO -- default-centos-60: Recipe: test1::apache
+I, [2016-01-18T09:47:56.791917 #5196]  INFO -- default-centos-60:  (up to date)
+I, [2016-01-18T09:47:56.802419 #5196]  INFO -- default-centos-60:  (up to date)
+I, [2016-01-18T09:47:56.802919 #5196]  INFO -- default-centos-60:  (up to date)
+I, [2016-01-18T09:47:56.803419 #5196]  INFO -- default-centos-60:  (up to date)
+I, [2016-01-18T09:47:56.803919 #5196]  INFO -- default-centos-60:  (up to date)
+I, [2016-01-18T09:47:56.814420 #5196]  INFO -- default-centos-60: 
+I, [2016-01-18T09:47:56.814920 #5196]  INFO -- default-centos-60: 
+I, [2016-01-18T09:47:56.814920 #5196]  INFO -- default-centos-60:     --- /etc/httpd/conf.d/anson.conf	2016-01-18 03:11:18.777697082 +0000
+I, [2016-01-18T09:47:56.814920 #5196]  INFO -- default-centos-60:     +++ /tmp/chef-rendered-template20160118-4781-1476rxs	2016-01-18 14:47:56.805010179 +0000
+I, [2016-01-18T09:47:56.814920 #5196]  INFO -- default-centos-60:     @@ -1,7 +1,7 @@
+I, [2016-01-18T09:47:56.814920 #5196]  INFO -- default-centos-60:      <VirtualHost *:80>
+I, [2016-01-18T09:47:56.814920 #5196]  INFO -- default-centos-60:   ServerAdmin webmaster@dummy-host.example.com
+I, [2016-01-18T09:47:56.814920 #5196]  INFO -- default-centos-60:   DocumentRoot /var/www/apache
+I, [2016-01-18T09:47:56.814920 #5196]  INFO -- default-centos-60:     -    ServerName dev.anson
+I, [2016-01-18T09:47:56.815420 #5196]  INFO -- default-centos-60:     +    ServerName prod.anson
+I, [2016-01-18T09:47:56.815420 #5196]  INFO -- default-centos-60:   ErrorLog logs /var/log/error_log
+I, [2016-01-18T09:47:56.815420 #5196]  INFO -- default-centos-60:   CustomLog logs /var/log/access_log
+I, [2016-01-18T09:47:56.845924 #5196]  INFO -- default-centos-60: 
+I, [2016-01-18T09:47:56.855925 #5196]  INFO -- default-centos-60:   * cookbook_file[/etc/httpd/conf.d/test.txt] action create (up to date)
+I, [2016-01-18T09:47:56.856926 #5196]  INFO -- default-centos-60: 
+I, [2016-01-18T09:47:56.857426 #5196]  INFO -- default-centos-60: Running handlers:
+I, [2016-01-18T09:47:56.857426 #5196]  INFO -- default-centos-60: Running handlers complete
+I, [2016-01-18T09:47:56.857926 #5196]  INFO -- default-centos-60: Chef Client finished, 1/7 resources updated in 8.075781078 seconds
+I, [2016-01-18T09:47:57.114458 #5196]  INFO -- default-centos-60: Finished converging <default-centos-60> (0m14.70s).

@@ -1,0 +1,23 @@
+
+driver:
+ name: vagrant
+
+ provisioner:
+#  name: chef_solo
+#  require_chef_omnibus: true
+
+platforms:
+ - name: centos-6.0
+   driver:
+     box: centos-59
+     box_url: file:///D:/chef-starter/chef-repo/CentOS-6.6-x86_64-v20150426.box
+     network:
+       - ["forwarded_port", {guest: 80, host: 8000}]
+       - ["forwarded_port", {guest: 8080, host: 7000}]
+
+suites:
+ - name: default
+   run_list:
+     - recipe[test1::default]
+
+   attributes:
